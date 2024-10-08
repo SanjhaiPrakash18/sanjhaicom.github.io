@@ -2234,6 +2234,27 @@ header {
     }
 }
 
+/* Enable overflow-x for .upd-exp-rounded-rect on responsive versions */
+
+@media screen and (max-width: 1400px) {
+    .upd-exp-rounded-rect {
+        overflow-x: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .upd-exp-rounded-rect {
+        overflow-x: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .upd-exp-rounded-rect {
+        overflow-x: auto;
+    }
+}
+
+
 @media (max-width: 1400px) {
     #areas-of-interest {
         display: none; /* Hide the section on all screens below 1400px */
